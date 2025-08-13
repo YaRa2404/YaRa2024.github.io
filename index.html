@@ -1,0 +1,60 @@
+
+<html>
+<head>
+    <title>Work</title>
+    <style>
+        body { font-family: sans-serif; margin:0; background:#fff; color:#000; }
+        .grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(300px, 1fr)); gap:20px; padding:20px; }
+        .project { position:relative; overflow:hidden; }
+        .project img { width:100%; height:auto; display:block; transition:0.3s; }
+        .overlay { position:absolute; top:0; left:0; right:0; bottom:0; display:flex; align-items:center; justify-content:center; 
+                    background:rgba(0,0,0,0.6); color:#fff; font-size:20px; text-transform:uppercase; opacity:0; transition:0.3s; }
+        .project:hover img { transform:scale(1.05); }
+        .project:hover .overlay { opacity:1; }
+        a { color:inherit; text-decoration:none; }
+    </style>
+</head>
+<body>
+    
+<nav>
+    <ul style="display:flex; gap:20px; list-style:none; padding:10px; background:#fff; position:sticky; top:0;">
+        <li><a href="index.html">WORK</a></li>
+        <li><a href="me.html">ME</a></li>
+    </ul>
+</nav>
+
+    <div class="grid">
+
+        <a class="project" href="project-1.html">
+            <img src="https://source.unsplash.com/800x600/?design" alt="Project 1">
+            <div class="overlay">PROJECT 1</div>
+        </a>
+    
+        <a class="project" href="project-2.html">
+            <img src="https://source.unsplash.com/800x600/?creative" alt="Project 2">
+            <div class="overlay">PROJECT 2</div>
+        </a>
+    
+        <a class="project" href="project-3.html">
+            <img src="https://source.unsplash.com/800x600/?art" alt="Project 3">
+            <div class="overlay">PROJECT 3</div>
+        </a>
+    
+        <a class="project" href="project-4.html">
+            <img src="https://source.unsplash.com/800x600/?technology" alt="Project 4">
+            <div class="overlay">PROJECT 4</div>
+        </a>
+    
+        <a class="project" href="project-5.html">
+            <img src="https://source.unsplash.com/800x600/?workspace" alt="Project 5">
+            <div class="overlay">PROJECT 5</div>
+        </a>
+    
+        <a class="project" href="project-6.html">
+            <img src="https://source.unsplash.com/800x600/?portfolio" alt="Project 6">
+            <div class="overlay">PROJECT 6</div>
+        </a>
+    
+    </div>
+</body>
+</html>
